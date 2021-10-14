@@ -43,6 +43,11 @@ h1.title {
     font-size: 30px;
 }
 
+h1.title_footer {
+    
+    font-size: 20px;
+}
+
 h2 {
     font-family: Verdana;
     font-size: 16px;
@@ -70,6 +75,32 @@ h2 {
 }
 
 
+#imgicontwitter {
+
+    border: 2px solid #DBDBDD;
+    position: absolute;
+    background-color: #FFFFFF;
+    margin-top: -3%;
+    margin-left: 91%;
+    padding: 2px;
+    border-radius: 10px;
+    width: 2%;
+    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
+}
+
+
+#imgiconlinkedin {
+
+    border: 2px solid #DBDBDD;
+    position: absolute;
+    background-color: #FFFFFF;
+    margin-top: -3%;
+    margin-left: 94%;
+    padding: 2px;
+    border-radius: 10px;
+    width: 2%;
+    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
+}
 
 #imgiconidea {
 
