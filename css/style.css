@@ -1,28 +1,145 @@
 
-main {
-    width: 98%;
-    height: 85%;
-    left: 2%
-}
-
 header {
     width: 100%;
-    height: 45px;
+    height: 70px;
     margin-bottom: 30px;
     background-color: #C0D4CB;
     border-radius: 10px;
+    
 }
 
 header .title_page {
     width: 100%;
     height: 100%;
     text-align: center;
+   
 }
 
+
+/**Imágenes e iconos.*/
 
 #imgusuario{
-    width: 75%;
+    width: 90%;
 }
+
+#imgmainlogo{
+    width: 50%;
+}
+
+
+#imgsmallicon{
+    width: 30%;
+}
+
+#imgicongit {
+
+    border: 2px solid #DBDBDD;
+    position: absolute;
+    background-color: #FFFFFF;
+    margin-top: -12px;
+    margin-left: 94%;
+    padding: 2px;
+    border-radius: 10px;
+    width: 4%;
+    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
+}
+
+
+#imgicontwitter {
+
+    border: 2px solid #DBDBDD;
+    position: absolute;
+    background-color: #FFFFFF;
+    margin-top: 0%;
+    margin-left: 13%;
+    padding: 1px;
+    border-radius: 10px;
+    width: 2%;
+    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
+}
+
+
+#imgiconlinkedin {
+
+    border: 2px solid #DBDBDD;
+    position: absolute;
+    background-color: #FFFFFF;
+    margin-top:0%;
+    margin-left: 10%;
+    padding: 2px;
+    border-radius: 10px;
+    width: 2%;
+    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
+}
+
+#imgiconidea {
+
+    border: 2px solid #DBDBDD;
+    position: absolute;
+    background-color: #FFFFFF;
+    margin-top: -12px;
+    margin-left: 89%;
+    padding: 2px;
+    border-radius: 10px;
+    width: 4%;
+    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
+}
+#imgicongit {
+
+    border: 2px solid #DBDBDD;
+    position: absolute;
+    background-color: #FFFFFF;
+    margin-top: -12px;
+    margin-left: 94%;
+    padding: 2px;
+    border-radius: 10px;
+    width: 4%;
+    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
+}
+
+
+#imgicontwitter {
+
+    border: 2px solid #DBDBDD;
+    position: absolute;
+    background-color: #FFFFFF;
+    margin-top: 0%;
+    margin-left: 13%;
+    padding: 1px;
+    border-radius: 10px;
+    width: 2%;
+    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
+}
+
+
+#imgiconlinkedin {
+
+    border: 2px solid #DBDBDD;
+    position: absolute;
+    background-color: #FFFFFF;
+    margin-top:0%;
+    margin-left: 10%;
+    padding: 2px;
+    border-radius: 10px;
+    width: 2%;
+    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
+}
+
+#imgiconidea {
+
+    border: 2px solid #DBDBDD;
+    position: absolute;
+    background-color: #FFFFFF;
+    margin-top: -12px;
+    margin-left: 89%;
+    padding: 2px;
+    border-radius: 10px;
+    width: 4%;
+    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
+}
+
+
+/** FinImágenes e iconos.*/
 
 h1 {
     font-family: Verdana;
@@ -61,59 +178,6 @@ h2 {
     z-index: 1; 
 }
 
-#imgicongit {
-
-    border: 2px solid #DBDBDD;
-    position: absolute;
-    background-color: #FFFFFF;
-    margin-top: -12px;
-    margin-left: 94%;
-    padding: 2px;
-    border-radius: 10px;
-    width: 4%;
-    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
-}
-
-
-#imgicontwitter {
-
-    border: 2px solid #DBDBDD;
-    position: absolute;
-    background-color: #FFFFFF;
-    margin-top: -3%;
-    margin-left: 91%;
-    padding: 2px;
-    border-radius: 10px;
-    width: 2%;
-    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
-}
-
-
-#imgiconlinkedin {
-
-    border: 2px solid #DBDBDD;
-    position: absolute;
-    background-color: #FFFFFF;
-    margin-top: -3%;
-    margin-left: 94%;
-    padding: 2px;
-    border-radius: 10px;
-    width: 2%;
-    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
-}
-
-#imgiconidea {
-
-    border: 2px solid #DBDBDD;
-    position: absolute;
-    background-color: #FFFFFF;
-    margin-top: -12px;
-    margin-left: 89%;
-    padding: 2px;
-    border-radius: 10px;
-    width: 4%;
-    z-index: 1; /*Para la segunda practica puedo jugar con los z-index de los botones*/
-}
 
 h2.contact{
     background-color: #778F9C;
@@ -149,7 +213,7 @@ h2.experience{
     padding-top: 25px;
     display: table;
     clear: both;
-    width: 90%;
+    width: 70%;
     margin-left: 25%;
 }
 
@@ -157,7 +221,7 @@ h2.experience{
 
 
 .tbcontact .adicional .datos{
-    width: 55%;
+    width: 70%;
     font-family: Verdana;
     font-size: 100%;
     text-align: center;
@@ -168,7 +232,7 @@ h2.experience{
 .tbcontact .adicional .celda{
     text-align: center;
     color:#DBDBDD;
-    background-color: #7F8480;
+    background-color: #538184;
     font-family: Verdana;
     font-size:100%;
     border-radius: 10px;
@@ -330,10 +394,9 @@ video {
 /* Fin experience */
 
 footer {
+    align-content: center;
     width: 100%;
-    height: 45px;
-
-   
+    height: 65px;
     z-index: 1;
     background-color: #C0D4CB;
     border-radius: 10px;
